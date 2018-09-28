@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(255, 252, 249);
+}
+
+
+header {
+    & .logo {
+        padding: 0px;
+
+        .logo-img {
+            display: block;
+            margin: auto;
+            max-height: 100%;
+            width: 300px;
+            height: auto;
+        }
+    }
+}
